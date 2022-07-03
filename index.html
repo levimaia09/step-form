@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Step form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <form action="minhapagina.html" method="get" name="form1">
+                <h1 style="text-align: center;">Formulário</h1>
+                <div class="content-form">
+                    <div class="steps active">
+                        <h3>página1</h3>
+                        <input type="text" name="name" placeholder="input1">
+                        <input type="text" name="name" placeholder="input2">
+                        <input type="text" name="name" placeholder="input3">
+                        <div class="button-box">
+                            <button data-prox type="button">Próximo</button>
+                        </div>
+                    </div>
+                    <div class="steps ">
+                        <h3>página2</h3>
+                        <input type="text" name="name" placeholder="input4">
+                        <input type="text" name="name" placeholder="input5">
+                        <input type="text" name="name" placeholder="input6">
+                        <div class="button-box">
+                            <button data-ant type="button">Anterior</button>
+                            <button data-prox type="button">Próximo</button>
+                        </div>
+                    </div>
+                    <div class="steps ">
+                        <h3>página3</h3>
+                        <input type="text" name="name" placeholder="inputa">
+                        <input type="text" name="name" placeholder="inputb">
+                        <input type="text" name="name" placeholder="inputc">
+                        <div class="button-box">
+                            <button data-ant type="button">Anterior</button>
+                            <button data-prox type="button">Próximo</button>
+                        </div>
+                    </div>
+                    <div class="steps ">
+                        <h3>página4</h3>
+                        <input type="text" name="name" placeholder="input7">
+                        <input type="text" name="name" placeholder="input8">
+                        <input type="text" name="name" placeholder="input9">
+                        <div class="button-box">
+                            <button data-ant type="button">Anterior</button>
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>   
+    <script src="main.js"></script>
+</body>
+</html>
