@@ -30,9 +30,11 @@ body{
 }
 
 .form-box input {
+    width: 300px;
+    height: 40px;
+    padding: 5px;
     display: block;
     margin-bottom: 20px;
-    padding: 10px;
     border: none;
     outline: none;
 }
@@ -74,7 +76,11 @@ body{
     display: flex;
     width: 100%;
     gap: 10px;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.button-box1{
+    flex-direction: row-reverse;
 }
 
 .steps{
