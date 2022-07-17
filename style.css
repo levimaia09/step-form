@@ -34,9 +34,14 @@ body{
     height: 40px;
     padding: 5px;
     display: block;
-    margin-bottom: 20px;
+    margin: 20px 0;
     border: none;
     outline: none;
+}
+
+.form-box input:focus {
+    transition: .3s;
+    outline: 1px solid rgb(49, 49, 49);
 }
 
 .form-box form{
@@ -52,10 +57,13 @@ body{
     margin-top: 8px;
     background-color: rgb(38, 63, 255);
     cursor: pointer;
+    box-shadow: 1px 3px rgb(29, 48, 191);
+    transition: .3s;
 }
 
 .form-box button:hover{
     background-color: rgb(18, 20, 155);
+    box-shadow: none;
 }
 
 .form-box h1 {
@@ -92,4 +100,5 @@ body{
 .active{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
